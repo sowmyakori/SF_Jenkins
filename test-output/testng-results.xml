@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="23" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="789831" started-at="2019-07-18T00:08:59Z" finished-at="2019-07-18T00:22:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="789831" started-at="2019-07-18T00:08:59Z" finished-at="2019-07-18T00:22:08Z">
+      <class name="com.demo.SaleForceTest">
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="10212" started-at="2019-07-18T00:08:59Z" finished-at="2019-07-18T00:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC01_loginWithoutPassword()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC01_loginWithoutPassword" duration-ms="737" started-at="2019-07-18T00:09:09Z" finished-at="2019-07-18T00:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_loginWithoutPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="11585" started-at="2019-07-18T00:09:10Z" finished-at="2019-07-18T00:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="9194" started-at="2019-07-18T00:09:21Z" finished-at="2019-07-18T00:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC02_LoginToSFDC()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC02_LoginToSFDC" duration-ms="2013" started-at="2019-07-18T00:09:30Z" finished-at="2019-07-18T00:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_LoginToSFDC -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="6340" started-at="2019-07-18T00:09:32Z" finished-at="2019-07-18T00:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="9981" started-at="2019-07-18T00:09:39Z" finished-at="2019-07-18T00:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC03_RememberUserNameChecked()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC03_RememberUserNameChecked" duration-ms="12026" started-at="2019-07-18T00:09:49Z" finished-at="2019-07-18T00:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_RememberUserNameChecked -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="33518" started-at="2019-07-18T00:10:01Z" finished-at="2019-07-18T00:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="13365" started-at="2019-07-18T00:10:34Z" finished-at="2019-07-18T00:10:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC04A_ForgotPassword()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC04A_ForgotPassword" duration-ms="1051" started-at="2019-07-18T00:10:48Z" finished-at="2019-07-18T00:10:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04A_ForgotPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="5744" started-at="2019-07-18T00:10:49Z" finished-at="2019-07-18T00:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="6457" started-at="2019-07-18T00:10:54Z" finished-at="2019-07-18T00:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC04B_WrongCredential()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC04B_WrongCredential" duration-ms="958" started-at="2019-07-18T00:11:01Z" finished-at="2019-07-18T00:11:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04B_WrongCredential -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="6189" started-at="2019-07-18T00:11:02Z" finished-at="2019-07-18T00:11:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="5833" started-at="2019-07-18T00:11:08Z" finished-at="2019-07-18T00:11:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC05_SelectUserMenu()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC05_SelectUserMenu" duration-ms="11969" started-at="2019-07-18T00:11:14Z" finished-at="2019-07-18T00:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05_SelectUserMenu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="5931" started-at="2019-07-18T00:11:26Z" finished-at="2019-07-18T00:11:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="7268" started-at="2019-07-18T00:11:32Z" finished-at="2019-07-18T00:11:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC06_MyProfileOption()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC06_MyProfileOption" duration-ms="60168" started-at="2019-07-18T00:11:39Z" finished-at="2019-07-18T00:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06_MyProfileOption -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="5524" started-at="2019-07-18T00:12:39Z" finished-at="2019-07-18T00:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="7663" started-at="2019-07-18T00:12:45Z" finished-at="2019-07-18T00:12:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="FAIL" signature="TC07_MySettings()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC07_MySettings" duration-ms="20713" started-at="2019-07-18T00:12:52Z" finished-at="2019-07-18T00:13:13Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Reports
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Reports
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at com.demo.ReusableMethods.selectFromList(ReusableMethods.java:147)
+at com.demo.SaleForceTest.TC07_MySettings(SaleForceTest.java:283)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07_MySettings -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="6345" started-at="2019-07-18T00:13:13Z" finished-at="2019-07-18T00:13:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="9134" started-at="2019-07-18T00:13:19Z" finished-at="2019-07-18T00:13:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC08_DevelopersConsole()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC08_DevelopersConsole" duration-ms="13230" started-at="2019-07-18T00:13:29Z" finished-at="2019-07-18T00:13:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC08_DevelopersConsole -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="14046" started-at="2019-07-18T00:13:42Z" finished-at="2019-07-18T00:13:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="9361" started-at="2019-07-18T00:13:56Z" finished-at="2019-07-18T00:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC09_Logout()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC09_Logout" duration-ms="12009" started-at="2019-07-18T00:14:05Z" finished-at="2019-07-18T00:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC09_Logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="8251" started-at="2019-07-18T00:14:17Z" finished-at="2019-07-18T00:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="7564" started-at="2019-07-18T00:14:25Z" finished-at="2019-07-18T00:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC10_CreateAnAccount()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC10_CreateAnAccount" duration-ms="16051" started-at="2019-07-18T00:14:33Z" finished-at="2019-07-18T00:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_CreateAnAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="4784" started-at="2019-07-18T00:14:49Z" finished-at="2019-07-18T00:14:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="6754" started-at="2019-07-18T00:14:54Z" finished-at="2019-07-18T00:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="FAIL" signature="TC11_CreateNewView()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC11_CreateNewView" duration-ms="13483" started-at="2019-07-18T00:15:01Z" finished-at="2019-07-18T00:15:14Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //select[@class='title']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.JtbbnzumWPF1, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=17024, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 5d9be201-5623-47b1-ba93-ba4dac9a6569
+*** Element info: {Using=xpath, value=//select[@class='title']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //select[@class='title']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.JtbbnzumWPF1, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=17024, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 5d9be201-5623-47b1-ba93-ba4dac9a6569
+*** Element info: {Using=xpath, value=//select[@class='title']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+at com.demo.SaleForceTest.TC11_CreateNewView(SaleForceTest.java:384)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_CreateNewView -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="11709" started-at="2019-07-18T00:15:14Z" finished-at="2019-07-18T00:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="7869" started-at="2019-07-18T00:15:26Z" finished-at="2019-07-18T00:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="FAIL" signature="TC12_EditView()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC12_EditView" duration-ms="12834" started-at="2019-07-18T00:15:34Z" finished-at="2019-07-18T00:15:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Last Activity
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Last Activity
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at com.demo.ReusableMethods.selectFromList(ReusableMethods.java:147)
+at com.demo.SaleForceTest.TC12_EditView(SaleForceTest.java:415)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_EditView -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="5216" started-at="2019-07-18T00:15:47Z" finished-at="2019-07-18T00:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="8230" started-at="2019-07-18T00:15:52Z" finished-at="2019-07-18T00:16:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="FAIL" signature="TC13_MergeAccounts()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC13_MergeAccounts" duration-ms="13436" started-at="2019-07-18T00:16:00Z" finished-at="2019-07-18T00:16:13Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@id='cid1']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.Sg7c8pJ8qfhi, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=21872, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 76cc63a1-e1c9-4892-8136-a41a2c54dc44
+*** Element info: {Using=xpath, value=//input[@id='cid1']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='cid1']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.Sg7c8pJ8qfhi, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=21872, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 76cc63a1-e1c9-4892-8136-a41a2c54dc44
+*** Element info: {Using=xpath, value=//input[@id='cid1']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+at com.demo.SaleForceTest.TC13_MergeAccounts(SaleForceTest.java:445)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_MergeAccounts -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="14700" started-at="2019-07-18T00:16:13Z" finished-at="2019-07-18T00:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="9972" started-at="2019-07-18T00:16:28Z" finished-at="2019-07-18T00:16:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="FAIL" signature="TC14_CreateAccountReport()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC14_CreateAccountReport" duration-ms="30700" started-at="2019-07-18T00:16:38Z" finished-at="2019-07-18T00:17:09Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Element <button id="ext-gen63" class=" x-btn-text run-report-btn-icon" type="button"> is not clickable at point (372,139) because another element <div id="ext-gen288" class="ext-el-mask"> obscures it
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.FV6XGVXgE1cl, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=37208, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 5c2f7350-dca8-45a2-9949-35db43bd004f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Element <button id="ext-gen63" class=" x-btn-text run-report-btn-icon" type="button"> is not clickable at point (372,139) because another element <div id="ext-gen288" class="ext-el-mask"> obscures it
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.FV6XGVXgE1cl, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=37208, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 5c2f7350-dca8-45a2-9949-35db43bd004f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+at com.demo.ReusableMethods.clickButton(ReusableMethods.java:58)
+at com.demo.SaleForceTest.TC14_CreateAccountReport(SaleForceTest.java:496)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_CreateAccountReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="9020" started-at="2019-07-18T00:17:09Z" finished-at="2019-07-18T00:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="14484" started-at="2019-07-18T00:17:18Z" finished-at="2019-07-18T00:17:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC15_VerifyOpportunityDropDown()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC15_VerifyOpportunityDropDown" duration-ms="12802" started-at="2019-07-18T00:17:32Z" finished-at="2019-07-18T00:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_VerifyOpportunityDropDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="17303" started-at="2019-07-18T00:17:45Z" finished-at="2019-07-18T00:18:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="20261" started-at="2019-07-18T00:18:02Z" finished-at="2019-07-18T00:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="FAIL" signature="TC16_CreateNewOpportunity()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC16_CreateNewOpportunity" duration-ms="8901" started-at="2019-07-18T00:18:23Z" finished-at="2019-07-18T00:18:32Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@class='profileTrigger branding-user-profile bgimg slds-avatar slds-avatar_profile-image-small circular forceEntityIcon']//span[@class='uiImage']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.6XtoMbf2KvOQ, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=37908, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: cd0a0ab7-455d-4b26-8a8e-e0b97c9b94e4
+*** Element info: {Using=xpath, value=//div[@class='profileTrigger branding-user-profile bgimg slds-avatar slds-avatar_profile-image-small circular forceEntityIcon']//span[@class='uiImage']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='profileTrigger branding-user-profile bgimg slds-avatar slds-avatar_profile-image-small circular forceEntityIcon']//span[@class='uiImage']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'DESKTOP-1IL03V1', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Dell-Latitude-E6430\AppData\Local\Temp\rust_mozprofile.6XtoMbf2KvOQ, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=XP, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=68.0, moz:shutdownTimeout=60000, platformVersion=10.0, moz:processID=37908, browserName=firefox, moz:buildID=20190705220548, javascriptEnabled=true, platformName=XP, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: cd0a0ab7-455d-4b26-8a8e-e0b97c9b94e4
+*** Element info: {Using=xpath, value=//div[@class='profileTrigger branding-user-profile bgimg slds-avatar slds-avatar_profile-image-small circular forceEntityIcon']//span[@class='uiImage']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+at com.demo.SaleForceTest.login(SaleForceTest.java:714)
+at com.demo.SaleForceTest.TC16_CreateNewOpportunity(SaleForceTest.java:514)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_CreateNewOpportunity -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="36794" started-at="2019-07-18T00:18:32Z" finished-at="2019-07-18T00:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="9426" started-at="2019-07-18T00:19:08Z" finished-at="2019-07-18T00:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC17_OpportunityPipelineReport()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC17_OpportunityPipelineReport" duration-ms="13873" started-at="2019-07-18T00:19:18Z" finished-at="2019-07-18T00:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_OpportunityPipelineReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="7658" started-at="2019-07-18T00:19:32Z" finished-at="2019-07-18T00:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="8978" started-at="2019-07-18T00:19:39Z" finished-at="2019-07-18T00:19:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC18_StuckOpportunityReport()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC18_StuckOpportunityReport" duration-ms="13608" started-at="2019-07-18T00:19:48Z" finished-at="2019-07-18T00:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_StuckOpportunityReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="6247" started-at="2019-07-18T00:20:02Z" finished-at="2019-07-18T00:20:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="5869" started-at="2019-07-18T00:20:08Z" finished-at="2019-07-18T00:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC19_QuarterlySummaryReport()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC19_QuarterlySummaryReport" duration-ms="13386" started-at="2019-07-18T00:20:14Z" finished-at="2019-07-18T00:20:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_QuarterlySummaryReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="4619" started-at="2019-07-18T00:20:27Z" finished-at="2019-07-18T00:20:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="5817" started-at="2019-07-18T00:20:32Z" finished-at="2019-07-18T00:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC20_LeadsTab()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC20_LeadsTab" duration-ms="11996" started-at="2019-07-18T00:20:38Z" finished-at="2019-07-18T00:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_LeadsTab -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="7238" started-at="2019-07-18T00:20:50Z" finished-at="2019-07-18T00:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="7463" started-at="2019-07-18T00:20:57Z" finished-at="2019-07-18T00:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC21_LeadsSelectView()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC21_LeadsSelectView" duration-ms="13608" started-at="2019-07-18T00:21:05Z" finished-at="2019-07-18T00:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_LeadsSelectView -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="8175" started-at="2019-07-18T00:21:18Z" finished-at="2019-07-18T00:21:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="lauchURL" is-config="true" duration-ms="6839" started-at="2019-07-18T00:21:26Z" finished-at="2019-07-18T00:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchURL -->
+        <test-method status="PASS" signature="TC22_DefaultView()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="TC22_DefaultView" duration-ms="27140" started-at="2019-07-18T00:21:33Z" finished-at="2019-07-18T00:22:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_DefaultView -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="closeBrowser" is-config="true" duration-ms="7857" started-at="2019-07-18T00:22:00Z" finished-at="2019-07-18T00:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.demo.SaleForceTest@448ff1a8]" name="flushReport" is-config="true" duration-ms="283" started-at="2019-07-18T00:22:08Z" finished-at="2019-07-18T00:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.demo.SaleForceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
