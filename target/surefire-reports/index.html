@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -108,6 +108,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.demo.SaleForceTest" title="com.demo.SaleForceTest" hash-for-method="TC02_LoginToSFDC">TC02_LoginToSFDC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.demo.SaleForceTest" title="com.demo.SaleForceTest" hash-for-method="TC03_RememberUserNameChecked">TC03_RememberUserNameChecked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.demo.SaleForceTest" title="com.demo.SaleForceTest" hash-for-method="TC04A_ForgotPassword">TC04A_ForgotPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com.demo.SaleForceTest -->
@@ -140,6 +150,20 @@
                   <a name="TC02_LoginToSFDC">
                   </a> <!-- TC02_LoginToSFDC -->
                   <span class="method-name">TC02_LoginToSFDC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC03_RememberUserNameChecked">
+                  </a> <!-- TC03_RememberUserNameChecked -->
+                  <span class="method-name">TC03_RememberUserNameChecked</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04A_ForgotPassword">
+                  </a> <!-- TC04A_ForgotPassword -->
+                  <span class="method-name">TC04A_ForgotPassword</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -195,20 +219,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TC02_LoginToSFDC')
+data.setCell(0, 1, 'TC03_RememberUserNameChecked')
 data.setCell(0, 2, 'com.demo.SaleForceTest')
-data.setCell(0, 3, 2379);
+data.setCell(0, 3, 11772);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TC01_loginWithoutPassword')
+data.setCell(1, 1, 'TC02_LoginToSFDC')
 data.setCell(1, 2, 'com.demo.SaleForceTest')
-data.setCell(1, 3, 713);
+data.setCell(1, 3, 2382);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC04A_ForgotPassword')
+data.setCell(2, 2, 'com.demo.SaleForceTest')
+data.setCell(2, 3, 1283);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC01_loginWithoutPassword')
+data.setCell(3, 2, 'com.demo.SaleForceTest')
+data.setCell(3, 3, 932);
 window.suiteTableData['com.demo.SaleForceTest']= { tableData: data, tableDiv: 'times-div-com.demo.SaleForceTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
               <div id="times-div-com.demo.SaleForceTest">
               </div> <!-- times-div-com.demo.SaleForceTest -->
             </div> <!-- times-div -->
@@ -236,32 +268,56 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.demo.SaleForceTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">lauchURL</span>
+                <span class="method-name">openBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC01_loginWithoutPassword</span>
-                <span class="method-start">6178 ms</span>
+                <span class="method-start">7577 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">6892 ms</span>
+                <span class="method-start">8511 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">lauchURL</span>
-                <span class="method-start">10871 ms</span>
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">12636 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC02_LoginToSFDC</span>
-                <span class="method-start">16333 ms</span>
+                <span class="method-start">19272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">18713 ms</span>
+                <span class="method-start">21654 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">26662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC03_RememberUserNameChecked</span>
+                <span class="method-start">36892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">48665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">57596 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC04A_ForgotPassword</span>
+                <span class="method-start">63530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">64813 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">flushReport</span>
-                <span class="method-start">24371 ms</span>
+                <span class="method-start">68331 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

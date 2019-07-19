@@ -1,37 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="com.demo.SaleForceTest" duration-ms="24607" started-at="2019-07-18T23:35:33Z" finished-at="2019-07-18T23:35:58Z">
+  <suite name="com.demo.SaleForceTest" duration-ms="68556" started-at="2019-07-19T04:00:53Z" finished-at="2019-07-19T04:02:02Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="24607" started-at="2019-07-18T23:35:33Z" finished-at="2019-07-18T23:35:58Z">
+    <test name="Command line test" duration-ms="68556" started-at="2019-07-19T04:00:53Z" finished-at="2019-07-19T04:02:02Z">
       <class name="com.demo.SaleForceTest">
-        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="lauchURL" is-config="true" duration-ms="6178" started-at="2019-07-18T23:35:33Z" finished-at="2019-07-18T23:35:39Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="openBrowser" is-config="true" duration-ms="7576" started-at="2019-07-19T04:00:53Z" finished-at="2019-07-19T04:01:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lauchURL -->
-        <test-method status="PASS" signature="TC01_loginWithoutPassword()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="TC01_loginWithoutPassword" duration-ms="713" started-at="2019-07-18T23:35:39Z" finished-at="2019-07-18T23:35:40Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC01_loginWithoutPassword()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="TC01_loginWithoutPassword" duration-ms="932" started-at="2019-07-19T04:01:01Z" finished-at="2019-07-19T04:01:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_loginWithoutPassword -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="closeBrowser" is-config="true" duration-ms="3978" started-at="2019-07-18T23:35:40Z" finished-at="2019-07-18T23:35:44Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="closeBrowser" is-config="true" duration-ms="4125" started-at="2019-07-19T04:01:02Z" finished-at="2019-07-19T04:01:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="lauchURL()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="lauchURL" is-config="true" duration-ms="5461" started-at="2019-07-18T23:35:44Z" finished-at="2019-07-18T23:35:49Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="openBrowser" is-config="true" duration-ms="6636" started-at="2019-07-19T04:01:06Z" finished-at="2019-07-19T04:01:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lauchURL -->
-        <test-method status="PASS" signature="TC02_LoginToSFDC()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="TC02_LoginToSFDC" duration-ms="2379" started-at="2019-07-18T23:35:49Z" finished-at="2019-07-18T23:35:52Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC02_LoginToSFDC()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="TC02_LoginToSFDC" duration-ms="2382" started-at="2019-07-19T04:01:12Z" finished-at="2019-07-19T04:01:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_LoginToSFDC -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="closeBrowser" is-config="true" duration-ms="5658" started-at="2019-07-18T23:35:52Z" finished-at="2019-07-18T23:35:57Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="closeBrowser" is-config="true" duration-ms="5007" started-at="2019-07-19T04:01:15Z" finished-at="2019-07-19T04:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="flushReport" is-config="true" duration-ms="217" started-at="2019-07-18T23:35:57Z" finished-at="2019-07-18T23:35:58Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="openBrowser" is-config="true" duration-ms="10230" started-at="2019-07-19T04:01:20Z" finished-at="2019-07-19T04:01:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC03_RememberUserNameChecked()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="TC03_RememberUserNameChecked" duration-ms="11772" started-at="2019-07-19T04:01:30Z" finished-at="2019-07-19T04:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_RememberUserNameChecked -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="closeBrowser" is-config="true" duration-ms="8930" started-at="2019-07-19T04:01:42Z" finished-at="2019-07-19T04:01:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="openBrowser" is-config="true" duration-ms="5934" started-at="2019-07-19T04:01:51Z" finished-at="2019-07-19T04:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="TC04A_ForgotPassword()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="TC04A_ForgotPassword" duration-ms="1283" started-at="2019-07-19T04:01:57Z" finished-at="2019-07-19T04:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04A_ForgotPassword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="closeBrowser" is-config="true" duration-ms="3518" started-at="2019-07-19T04:01:58Z" finished-at="2019-07-19T04:02:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.demo.SaleForceTest@35a50a4c]" name="flushReport" is-config="true" duration-ms="207" started-at="2019-07-19T04:02:01Z" finished-at="2019-07-19T04:02:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->

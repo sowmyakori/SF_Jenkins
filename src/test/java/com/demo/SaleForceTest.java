@@ -131,7 +131,7 @@ public class SaleForceTest extends ReusableMethods{
 		WebElement resetMsg = driver.findElement(By.xpath("//div[@class='message']"));
 		validateTextMessage(resetMsg, "We've sent you an email with a link to finish resetting your password.", "reset Message");
 	}
-	/* 	
+	/* commenting	
 	@Test(enabled= true)
 	public void TC04B_WrongCredential()
 	{
