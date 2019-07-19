@@ -7,6 +7,7 @@ import java.util.List;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
@@ -18,8 +19,8 @@ public class ReusableMethods {
 	static WebDriver driver;
 //	static ExtentReports reports;
 	static ExtentTest logger;
-	static String filename = new SimpleDateFormat("'SampleReport_'MMMddyyHHmmss'.html'").format(new Date());
-	static String path="ExtentReports/"+filename;
+	//static String filename = new SimpleDateFormat("'SampleReport_'MMMddyyHHmmss'.html'").format(new Date());
+	static String path="ExtentReports/SFDC.html";
 	static ExtentReports reports = new ExtentReports(path);		
 	
 	
@@ -27,6 +28,19 @@ public class ReusableMethods {
 
 		logger = reports.startTest(testName);
 		return logger;
+	}
+	
+	public static void launchURL(String url) {
+		driver = new FirefoxDriver();
+		if(driver!=null) {
+			driver.get(url);
+			System.out.println("Launching...." +url);
+		//	logger.log(LogStatus.PASS, url+" launched... ");
+		}
+		else {
+			System.out.println("Unable to launch url" +url);
+			//logger.log(LogStatus.FAIL, "Unable to launch URL");
+		}
 	}
 	
 	public static void enterText(WebElement obj, String text, String objName) {
@@ -105,10 +119,12 @@ public class ReusableMethods {
 			if(obj.isSelected()) {
 			obj.click();
 			System.out.println("Pass : "+obj+" is Deselected");
+			logger.log(LogStatus.PASS, obj+" is Deselected");
 			}
 		}
 		else {
 			System.out.println("Fail : "+obj+" is not enabled please check the application");
+			logger.log(LogStatus.FAIL, obj+ " Unable to deselect the checkbox");
 		}
 	}
 	
@@ -116,9 +132,11 @@ public class ReusableMethods {
 		if(obj.isEnabled()) {
 			obj.click();
 			System.out.println("Pass : "+objName+" is clicked");
+			logger.log(LogStatus.PASS, objName+" is clicked");
 		}
 		else {
 			System.out.println("Fail : "+objName+" is not enabled please check the application");
+			logger.log(LogStatus.FAIL, objName+" is unable to click on image please check the application");
 		}
 	}
 	
@@ -126,18 +144,23 @@ public class ReusableMethods {
 		if(obj.isEnabled()) {
 			obj.click();
 			System.out.println("Pass : "+objName+" is clicked");
+			logger.log(LogStatus.PASS, objName+" is clicked");
 		}
 		else {
 			System.out.println("Fail : "+obj+" is not enabled please check the application");
+			logger.log(LogStatus.FAIL, obj+" is not enabled please check the application");
+			
 		}
 	}
 	
 	public static void isElementDisplayed(WebElement obj, String objName) {
 		if(obj.isDisplayed()) {
 			System.out.println("Pass :"+objName+" is Displayed");
+			logger.log(LogStatus.PASS, objName+" is Displayed");
 		}
 		else {
 			System.out.println("Fail :"+objName+" is not displayed please check application");
+			logger.log(LogStatus.FAIL, objName+" is not Displayed");
 		}
 	}
 	
@@ -147,9 +170,11 @@ public class ReusableMethods {
 			select.selectByVisibleText(visibleText);
 
 			System.out.println("Pass :"+visibleText+" is selected from list"+objName);
+			logger.log(LogStatus.PASS, visibleText+ " is selected from list "+objName);
 		}
 		else {
 			System.out.println("Fail : "+objName+" is not present please check the application");
+			logger.log(LogStatus.FAIL, objName+" is not present please check the application");
 		}
 	}
 	
@@ -157,26 +182,32 @@ public class ReusableMethods {
 		if(obj.isEnabled()) {
 			obj.click();
 			System.out.println("Pass :"+obj+" is selected");
+			logger.log(LogStatus.PASS, obj+" is selected");
 		}
 		else
-			System.out.println("Pass :"+obj+" is unable to selected");			
+			System.out.println("Pass :"+obj+" is unable to selected");		
+			logger.log(LogStatus.FAIL, obj+" is unable to selected");
 	}
 	
 	public static void deSelectRadioButton(WebElement obj, String objName) {
 		if(obj.isEnabled()) {
 			obj.click();
 			System.out.println("Pass :"+obj+" is deselected");
+			logger.log(LogStatus.PASS, obj+" is deselected");
 		}
 		else
-			System.out.println("Pass :"+obj+" is unable to deselected");			
+			System.out.println("Pass :"+obj+" is unable to deselected");		
+			logger.log(LogStatus.FAIL, obj+" is unable to deselected");
 	}
 	
 	public static void switchToFrame(WebElement obj) {
 		if(obj.isEnabled()) {
 			driver.switchTo().frame(obj);
-			System.out.println("Passed : Switched to frame");			
+			System.out.println("Passed : Switched to frame");	
+			logger.log(LogStatus.PASS, "Switched to frame");
 		}else
 			System.out.println("Failed : Unable to switch between frames");
+			logger.log(LogStatus.FAIL, "Failed to switch between frames");
 	}
 	
 	public static void mouseOver(WebElement obj, String objName) {
@@ -184,7 +215,9 @@ public class ReusableMethods {
 			Actions action = new Actions(driver);
 			action.moveToElement(obj).build().perform();
 			System.out.println("Passed : Mouseover on"+objName);
+			logger.log(LogStatus.PASS, "Mouseover on"+objName);
 		}else
 			System.out.println("Failed : Unable to perform Mouse action");
+		logger.log(LogStatus.FAIL, "Unable to perform Mouse action");
 	}
 }
