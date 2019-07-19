@@ -5,15 +5,11 @@
     <classes>
       <class name="com.demo.SaleForceTest">
         <methods>
-          <include name="TC12_EditView"/>
-          <include name="TC11_CreateNewView"/>
+          <include name="TC01_loginWithoutPassword"/>
+          <include name="TC02_LoginToSFDC"/>
           <include name="closeBrowser"/>
-          <include name="TC14_CreateAccountReport"/>
-          <include name="TC16_CreateNewOpportunity"/>
-          <include name="TC13_MergeAccounts"/>
-          <include name="lauchURL"/>
+          <include name="openBrowser"/>
           <include name="flushReport"/>
-          <include name="TC07_MySettings"/>
         </methods>
       </class> <!-- com.demo.SaleForceTest -->
     </classes>

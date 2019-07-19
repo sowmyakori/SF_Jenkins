@@ -41,9 +41,10 @@ public class SaleForceTest extends ReusableMethods{
 		reports.flush();
 	}
 	@BeforeMethod
-	public void lauchURL() {		
-		driver = new FirefoxDriver();
-		driver.get("https://login.salesforce.com");
+	public void openBrowser() {	
+	//	createTestReport("Launching URL");
+		launchURL("https://login.salesforce.com");
+		
 	}
 	@AfterMethod
 	public void closeBrowser() {
@@ -54,7 +55,7 @@ public class SaleForceTest extends ReusableMethods{
 	@Test(enabled=true)
 	public void TC01_loginWithoutPassword()
 	{
-		createTestReport("TC01_loginWithoutPassword");
+		createTestReport("TC01_loginWithoutPassword");	
 		WebElement userName = driver.findElement(By.id("username")); 
 		enterText(userName,"sowmya.kori1987-suj6@force.com", "UserName");
 		
@@ -77,7 +78,7 @@ public class SaleForceTest extends ReusableMethods{
 		WebElement loginButton = driver.findElement(By.id("Login"));
 		clickButton(loginButton, "login button");
 	}
-	
+	/*	
 	@Test(enabled=true)
 	public void TC03_RememberUserNameChecked() throws InterruptedException
 	{
@@ -128,7 +129,7 @@ public class SaleForceTest extends ReusableMethods{
 		WebElement continueButton = driver.findElement(By.id("continue"));
 		clickButton(continueButton, "Continue button");
 		WebElement resetMsg = driver.findElement(By.xpath("//div[@class='message']"));
-		validateTextMessage(resetMsg, "We�ve sent you an email with a link to finish resetting your password.", "reset Message");
+		validateTextMessage(resetMsg, "We've sent you an email with a link to finish resetting your password.", "reset Message");
 	}
 	
 	@Test(enabled= true)
@@ -708,7 +709,7 @@ public class SaleForceTest extends ReusableMethods{
 			Select newList = new Select(driver.findElement(By.xpath("//select[@name='fcf']")));
 			WebElement selectedOption = newList.getFirstSelectedOption();
 			validateTextMessage(selectedOption, "Today's Leads", "Dropdown selected option");
-	}
+	} */
 
 	public static void login() throws InterruptedException {
 		WebElement userName = driver.findElement(By.id("username"));
