@@ -78,11 +78,7 @@ public class SaleForceTest extends ReusableMethods{
 		WebElement loginButton = driver.findElement(By.id("Login"));
 		clickButton(loginButton, "login button");
 	}
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 5b0ae89... Committed 5 test cases
 	@Test(enabled=true)
 	public void TC03_RememberUserNameChecked() throws InterruptedException
 	{
@@ -135,7 +131,7 @@ public class SaleForceTest extends ReusableMethods{
 		WebElement resetMsg = driver.findElement(By.xpath("//div[@class='message']"));
 		validateTextMessage(resetMsg, "We've sent you an email with a link to finish resetting your password.", "reset Message");
 	}
-	/*	
+
 	@Test(enabled= true)
 	public void TC04B_WrongCredential()
 	{
